@@ -37,22 +37,22 @@ const FloatingText = () => {
       <Text3D
         ref={myAppRef}
         position={[-1, 1, 0]}
-        font={'/fonts/gentilis_regular.typeface.json'} // Ensure the font file is in public/fonts
+        font={'/fonts/optimer_regular.typeface.json'} // Ensure the font file is in public/fonts
         size={1.5}
         height={0.3}
       >
-        Carlos
+        This is 
         <meshStandardMaterial attach="material" color="gold" />
       </Text3D>
 
       <Text3D
         ref={welcomeRef}
         position={[-2, -1, 2]}
-        font={'/fonts/gentilis_regular.typeface.json'}
+        font={'/fonts/optimer_regular.typeface.json'}
         size={1.5}
         height={0.2}
       >
-        Hernandez
+        Floating
         <meshStandardMaterial attach="material" color="gold" />
       </Text3D>
     </>
