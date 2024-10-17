@@ -1,0 +1,11 @@
+.fancy-header {
+    background-image: url('/public/images/brick.jpg'); /* Replace with your desired image */
+    background-size: cover;
+    background-position: center;
+    color: black;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
